@@ -40,5 +40,10 @@ def using_flatten(instruments)
   instruments.flatten
 end
 
+def using_delete(instructors, name)
+  intructors.delete(name)
+end
+
+def using_delete_at()
   
   
