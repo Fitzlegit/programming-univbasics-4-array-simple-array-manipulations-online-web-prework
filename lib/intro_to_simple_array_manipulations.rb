@@ -1,4 +1,4 @@
 def using_push(colors_in_the_rainbow, color)
   next_color = color
-  using_push.push(color)
+  colors_in_the_rainbow.push(color)
 end
