@@ -7,3 +7,5 @@ def using_unshift(bouroughs_in_nyc, bouroughs)
   new_bouroughs = bouroughs
   bouroughs_in_nyc.unshift(bouroughs)
 end
+
+def using_pop()
