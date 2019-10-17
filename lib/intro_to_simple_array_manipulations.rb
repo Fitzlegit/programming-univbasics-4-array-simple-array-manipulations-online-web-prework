@@ -8,4 +8,7 @@ def using_unshift(bouroughs_in_nyc, bouroughs)
   bouroughs_in_nyc.unshift(bouroughs)
 end
 
-def using_pop()
+def using_pop(continents)
+  continents.pop
+end
+
