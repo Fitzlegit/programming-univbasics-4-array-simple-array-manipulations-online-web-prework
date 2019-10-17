@@ -3,4 +3,7 @@ def using_push(colors_in_the_rainbow, color)
   colors_in_the_rainbow.push(color)
 end
 
-def using_unshift(bouroughs_in_nyc, new_bouroughs)
+def using_unshift(bouroughs_in_nyc, bouroughs)
+  new_bouroughs = bouroughs
+  bouroughs_in_nyc.unshift(bouroughs)
+end
